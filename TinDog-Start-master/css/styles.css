@@ -1,0 +1,188 @@
+body{
+    font-family:montserrat, sans-serif;
+}
+
+h3{
+    font-family:montserrat, sans-serif;
+    font-weight:700;
+    color:black;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+#features{
+    background-color: white;
+    padding:10%;
+}
+
+.featuresContainer{
+    margin-left: 0;
+    margin-right:0;
+}
+
+.featuresRow{
+    margin:0;
+}
+
+.container-fluid1{
+    padding:3% 15% 7%;
+}
+
+/* navigation bar */
+
+.navbarBrand{
+    font-family: ubuntu, sans-serif;
+}
+
+.navLink{
+    color: #fff;
+}
+
+.navbar{
+    padding-bottom:4.5rem;
+}
+
+.nav-item{
+    padding: 0 1.1rem;
+}
+
+.nav-link{
+    font-size:1.2rem;
+/* you can select font-weight if you import a bunch of font weights from google */
+}
+
+/* buttons */
+.btnMarsh{
+    margin-left:10px;
+}
+
+/* features */
+
+#features{
+    background-color:white;
+}
+
+.featureBox{
+    text-align: center;
+}
+
+.featureImage{
+    padding-bottom: 20px;
+}
+
+.featureImage:hover{
+    padding-bottom: 20px;
+    filter: invert(54%) sepia(43%) saturate(4161%) hue-rotate(160deg) brightness(92%) contrast(101%);
+
+
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color:#ff4c68;
+    text-align:center;
+    color:white;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonials_h2{
+    font-family:montserrat;
+    font-weight:700;
+    color:white;
+    font-size:3rem;
+    line-height:1.5;
+}
+
+.testimonials_img{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+/* press */
+
+#press{
+    background-color:#ff4c68;
+    text-align: center;
+}
+
+.pressImages{
+    margin: 0 2% 6%;
+    width:15%;
+
+}
+
+/* pricing */
+
+#pricing{
+    text-align:center;
+    padding:100px;
+}
+
+.pricingColumns{
+    padding:2% 3%;
+}
+
+.titleImage{ 
+    position:absolute; 
+    width:20%; 
+    right:23%; 
+    transform:rotate(25deg);
+  }
+
+@media (max-width: 1028px) {
+
+    #title{
+      text-align: center;
+    }
+  
+    .titleImage{
+      position:static;
+      transform:rotate(0);
+      width:60%
+    }
+  }
+
+  /* call to action */
+
+  #cta{
+    background-color:#ff4c68;
+    text-align: center;
+  }
+    .cta{
+        padding-bottom:100px;
+    }
+  
+
+  .cta_h3{
+    font-family:montserrat;
+    font-weight:700;
+    color:white;
+    font-size:3rem;
+    line-height:1.5;
+    padding: 7% 15% 3%;
+  }
+
+  .cta_btn{
+    padding-bottom:5%;
+  }
+
+  /* footer */
+  #footer{
+    text-align: center;
+
+  }
+  .footerIcon{
+    margin-left:10px;
+    margin-bottom:20px;
+  }
+  .footer{
+    background-color:white;
+    padding:2% 0;
+  }
